@@ -75,16 +75,21 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 /* about section style */
 .about{
     text-align: center;
-margin-top: 130px;
+
 border-radius: 10px;
 background: #FFF8F3;
 padding: 130px 150px;
 margin-bottom: 30px;
 }
 .section-tittle{
+    text-align: center;
+    margin-bottom: 50px;
 
 font-size: 35px;
 font-weight: 700;
@@ -112,3 +117,37 @@ color: var(--Dark-03, #757575);
     font-weight: 700;
     color: var(--Dark-02, #474747);
 line-height: 30px;}
+/* what i do style */
+.what-i-do {
+
+
+
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.skill-tittle{
+   text-align: left;
+    color: var(--Dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+.skill.img{
+    align-items: center;
+}
