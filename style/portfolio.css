@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header and navigation style */
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    color: var(--Dark-02, #474747);
+    font-size: 20px;font-weight: 400;
+    margin-left: 50px;
+
+}
+.nav-tittle{
+    font-size: 45px;
+    font-weight: 800;
+}
+.pri{
+    color: #FD6E0A;
+}
+.primary{
+
+border-radius: 5px;
+background: #FD6E0A;
+padding: 18px 35px;
+
+height: 64px;
+font-size: 20px;
+color: var(--White-Color, #FFF);
+border: 0;
+
+font-weight: 700;
+}
+/* banner-styles */
+.banner{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+.h3{
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.h1{
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-des{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section style */
+.about{
+    text-align: center;
+margin-top: 130px;
+border-radius: 10px;
+background: #FFF8F3;
+padding: 130px 150px;
+margin-bottom: 30px;
+}
+.section-tittle{
+
+font-size: 35px;
+font-weight: 700;
+}
+.section-des{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about.info-tittle{
+
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: var(--Dark-03, #757575);
+}
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Dark-02, #474747);
+line-height: 30px;}
